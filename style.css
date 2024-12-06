@@ -9,7 +9,6 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
 
 :root {
@@ -27,6 +26,8 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
+
 }
 
 .header {
@@ -216,7 +217,7 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 4rem;
+    bottom: 1rem;
     width: 150px;
     display: flex;
     justify-content: space-between;
