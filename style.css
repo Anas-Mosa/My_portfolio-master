@@ -879,7 +879,8 @@ section:nth-child(odd) .animate.scroll,
         font-size: 5.2rem;
     }
     .home-sci{
-      bottom:-2;
+      position: absolute;
+      bottom:-2rem;
     }
 
     .education {
